@@ -54,12 +54,14 @@ body {
 }
 .gallery-image p {
 	text-align: center;
-  	padding: 180px 0 0;
-  	color: #FFFFFF;
-  	font-size: 22px;
-  	font-weight: normal;
-  	letter-spacing: 9px;
-  	opacity: 0;
+	padding: 180px 0 45px;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: normal;
+	letter-spacing: 9px;
+	opacity: 0;
+	background-color: rgba(137, 120, 74, 0.33);
+	margin: 0;
 }
 .gallery-image:hover p {
 	opacity: 1;
@@ -72,6 +74,12 @@ body {
 }
 .gallery-image.dania{
 	background-image: url("../img/Dania.jpg");
+}
+.gallery-image.bf-ny p {
+	background-color: rgba(85, 93, 116, 0.58);
+}
+.gallery-image.cabbage p {
+	background-color: rgba(121, 78, 104, 0.53);
 }
 .gallery-image.bf-ny {
 	background-image: url("../img/B&F+NY+009.jpg");
