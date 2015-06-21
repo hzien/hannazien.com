@@ -1,6 +1,6 @@
 body {
 	background-color: #fcfcfc;
-	font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .content {
 	max-width: 900px;
@@ -34,6 +34,9 @@ body {
 	padding: 0 16px;
 	color: #958e8e;
 	text-decoration: none;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 0px;
 }
 .navigation a:hover{
 	color: #111;
@@ -62,6 +65,7 @@ body {
 	opacity: 0;
 	background-color: rgba(137, 120, 74, 0.33);
 	margin: 0;
+	transition: all .3s;
 }
 .gallery-image:hover p {
 	opacity: 1;
@@ -102,17 +106,16 @@ body {
 .social {
 	float:right;
 	padding: 0;
-	letter-spacing: 3px;
-	font-size: 12;
+	font-size: 20px;
 }
 .social a {
 	padding: 0;
 	color: #958e8e;
 	text-decoration: none;
+	margin: 0 5px;
 }
 .social a:hover{
 	color: #111;
-	text-decoration: underline;
 }
 .powered-by-me {
 	float:left;
