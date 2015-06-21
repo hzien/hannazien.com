@@ -1,7 +1,85 @@
 body {
 	background-color: #fcfcfc;
+	font-family: sans-serif;
 }
 .content {
 	max-width: 900px;
 	margin: 50px auto;
+}
+.header {
+	padding:0 0 20px 0;
+	overflow: auto;
+	border-bottom: 1px solid #D6D6D7;
+	margin: 0 0 40px 0;
+}
+.logo {
+	float:left;
+}
+.logo-image {
+	width: 200px;
+}
+
+.logo h4 {
+	color: #D6D6D7;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 3px
+}
+.navigation {
+	float:right;
+	padding: 55px 0;
+	letter-spacing: 3px;
+}
+.navigation a {
+	padding: 0 16px;
+	color: #958e8e;
+	text-decoration: none;
+}
+.navigation a:hover{
+	color: #111;
+	text-decoration: underline;
+}
+.gallery {
+
+}
+.gallery-image {
+	display: inline-block;
+  	width: 277px;
+  	height: 250px;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	margin-right: 30px;
+  	opacity: 1;
+}
+.gallery-image p {
+	text-align: center;
+  	padding: 180px 0;
+  	color: #FFFFFF;
+  	font-size: 22px;
+  	font-weight: normal;
+  	letter-spacing: 9px;
+  	opacity: 0;
+}
+.gallery-image:hover p {
+	opacity: 1;
+}
+.gallery-image:hover {
+	opacity: .75;
+}
+.gallery-image:last-child{
+	margin-right: 0;
+}
+.gallery-image.dania{
+	background-image: url("../img/Dania.jpg");
+}
+.gallery-image.bf-ny {
+	background-image: url("../img/B&F+NY+009.jpg");
+	background-position: -30px 0;
+
+}
+.gallery-image.cabbage {
+	background-image: url("../img/Cabbage+Back.jpg");
+	background-size: 180%;
+  	background-position: -91px -51px;
+
 }
