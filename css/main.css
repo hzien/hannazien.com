@@ -40,7 +40,8 @@ body {
 	text-decoration: underline;
 }
 .gallery {
-
+	border-bottom: 1px solid #D6D6D7;
+	padding: 0 0 40px 0;
 }
 .gallery-image {
 	display: inline-block;
@@ -53,7 +54,7 @@ body {
 }
 .gallery-image p {
 	text-align: center;
-  	padding: 180px 0;
+  	padding: 180px 0 0;
   	color: #FFFFFF;
   	font-size: 22px;
   	font-weight: normal;
@@ -82,4 +83,29 @@ body {
 	background-size: 180%;
   	background-position: -91px -51px;
 
+}
+.footer {
+	padding: 35px 0 0 0;
+	color: #958e8e;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-size: 10;
+}
+.social {
+	float:right;
+	padding: 0;
+	letter-spacing: 3px;
+	font-size: 12;
+}
+.social a {
+	padding: 0;
+	color: #958e8e;
+	text-decoration: none;
+}
+.social a:hover{
+	color: #111;
+	text-decoration: underline;
+}
+.powered-by-me {
+	float:left;
 }
