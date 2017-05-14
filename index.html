@@ -4,6 +4,22 @@
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<script>
+			(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-99128812-1', 'auto');
+			ga('send', 'pageview');
+
+			var dimensionValue = 'SESSION_LENGTH';
+			ga('set', 'dimension1', dimensionValue);
+
+		</script>}
 	</head>
 	<body>
 		<div class="content">
@@ -18,16 +34,27 @@
 					<a href="#">contact</a>
 				</div>
 			</div>
-			<div class="gallery">
-				<!-- <img src="img/Dania.jpg" class="gallery-image"/>
+			<div class="navigation">
+				<a href="#">work</a>
+				<a href="CV.html">cv</a>
+				<a href="#">contact</a>
+			</div>
+		</div>
+		<div class="gallery">
+			<!-- <img src="img/Dania.jpg" class="gallery-image"/>
 				<img src="img/B&F+NY+009.jpg" class="gallery-image"/>
 				<img src="img/Cabbage+Back.jpg" class="gallery-image"/> -->
-				<div class="gallery-image dania"> 
+			<a href="displays.html">
+				<div class="gallery-image dania">
 					<p>displays</p>
 				</div>
+			</a>
+			<a href="merchandising.html">
 				<div class="gallery-image bf-ny">
 					<p>merchandising</p>
-				</div>	
+				</div>
+			</a>
+			<a href="artwork.html">
 				<div class="gallery-image cabbage">
 					<p>artwork</p>
 					</div>
@@ -40,7 +67,21 @@
 					</a>
 					<a href="#"><i class="fa fa-tumblr"></i></a>
 				</div>
+		</div>
+		<div class="footer">
+			<div class="powered-by-me">Powered By Hanna Zien</div>
+			<div class="social">
+				<a href="#">email</a>
+				<a href="#">tumblr</a>
+				<a href="#">pinterest</a>
 			</div>
 		</div>
-	</body>
+	</div>
+
+	<script>
+	ga('send', 'pageview', {
+		'dimension1':  'Homepage'
+	});
+	</script>
+</body>
 </html>
